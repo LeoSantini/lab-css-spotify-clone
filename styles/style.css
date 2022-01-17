@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* Formatação header */
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav_bar img{
+  width: 220px;
+  padding: 10px;
+}
+
+.nav_bar ul{
+  display: flex;
+}
+
+.nav_bar li{
+  display: flex;
+  list-style-type: none;
+}
+
+.nav_bar a{
+  display: flex;
+  text-decoration: none;
+  padding-left: 15;
+  padding-right: 20px;
+  color: black;
+  font-size: 1.2em;  
+}
+
+/* Formatação image hero  */
+
+.image_hero{
+  background-image: url(/images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.text_hero{
+  display: flex;
+  height: 1200px;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_hero h1{
+  font-size: 5em;
+  padding-bottom: 25px;
+}
+
+.text_hero p{
+  font-size: 2em;
+}
+
+/* Formatação what's on Spotify */
+
+.spotify{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spotify img{
+  display: flex;
+  width: 20%;
+}
+
+.spotify article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.spotify div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.spotify h2{
+  font-size: 2.5em;
+  padding-top: 40px;
+  border-bottom: 3px solid #1db954;
+}
+
+.spotify h3{
+  color: #1db954;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  font-size: 2em;
+}
+
+.spotify p{
+  font-size: 1.5em;
+}
+
+/* Formatação Kanye West */
+
+.music{
+  background-color: #1db954;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  border: solid white 15px;
+  background-image: url(/images/spotify-icon-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+}
+
+.music img{
+  width: 300px;
+}
+
+.sp_icon img{
+  width: 100px;
+}
+
+.music article {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-bottom: 20px ;
+}
+
+.music h2{
+  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-left: 30px;
+  text-decoration: underline solid white;
+  text-underline-offset: 10px;
+  font-size: 2.5em;
+}
+
+.music h3 {
+  font-size: 1.5em;
+}
+
+.music p{
+  padding-top: 20px;
+  font-size: 1.5em;
+}
+
